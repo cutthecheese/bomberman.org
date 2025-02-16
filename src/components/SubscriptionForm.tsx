@@ -5,6 +5,7 @@ export function SubscriptionForm() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed ] = useState(false);
   const [token, setToken] = useState('');
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
